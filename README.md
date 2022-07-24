@@ -8,7 +8,7 @@ A python library that can easily find out the real format of a binary file with 
 
 The result of the finder may be wrong, please be careful.
 
-这个包返回的结果可能是错误的，请谨慎使用。
+这个工具返回的结果可能是错误的，请谨慎使用。
 
 If you find any bug or mistake, please report it in issues.
 
