@@ -3,7 +3,7 @@ from io import BufferedReader
 from pathlib import Path, PurePath
 from typing import Optional, Union
 
-from formatfinder.dicts import format_list
+from formatdetector.dicts import format_list
 
 
 def _bytes_to_hex(bytes_: bytes) -> str:
@@ -56,7 +56,7 @@ def get_file_format(file: Union[str, bytes, BufferedReader] = None, header: str 
 
 if __name__ == '__main__':
     # Traversing test 遍历测试
-    from formatfinder.dicts import text_file_suffix
+    from formatdetector.dicts import text_file_suffix
     check_paths = ['D:/']
     appeared = set()
     for check_path in check_paths:
